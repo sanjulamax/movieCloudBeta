@@ -6,7 +6,7 @@ import Player from './player';
 import yt from '../assets/yts.png'
 import li from '../assets/li23.png'
 import mail from '../assets/mail.png'
-import logo from '../assets/logo.png'
+import logo from '../assets/logo .png'
 
 
 
