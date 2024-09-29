@@ -3,6 +3,10 @@ import React from 'react';
 import { Context } from './context';
 import { useContext } from 'react';
 import Player from './player';
+import yt from '../assets/yts.png'
+import li from '../assets/li23.png'
+import mail from '../assets/mail.png'
+
 
 
 
@@ -36,8 +40,8 @@ const Home = ()=>{
             <div className='sm:max-lg:hidden max-[430px]:hidden flex flex-row w-1/2 align-middle justify-end '>
             <a href='https://www.linkedin.com/in/savindu-abeywickrama-58a828311?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BT3J7IYuHRp%2BFyWWB8EO8%2FA%3D%3D'><img src='/li23.png' alt='linkedin' className='w-11 h-11 ml-6' /></a> 
 
-           <a href='http://www.youtube.com/@slnoobhacker4903'><img src='/yts.png' alt='yt' className='w-16 h-12 ml-6' /></a> 
-           <a href='mailto:sanjulasavindu400@gmail.com'><img src='/mail.png' alt='mail' className='w-10 h-10 ml-6' /></a> 
+           <a href='http://www.youtube.com/@slnoobhacker4903'><img src={yt} alt='yt' className='w-16 h-12 ml-6' /></a> 
+           <a href='mailto:sanjulasavindu400@gmail.com'><img src={mail} alt='mail' className='w-10 h-10 ml-6' /></a> 
             </div>
             </div>
             
