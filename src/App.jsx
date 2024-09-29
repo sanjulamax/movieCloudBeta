@@ -18,7 +18,7 @@ function App() {
 
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/movieCloudBeta/">
 
     <Routes>
       <Route path="/" element={<Landing/>} />
