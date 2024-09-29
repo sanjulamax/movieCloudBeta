@@ -58,7 +58,7 @@ const Home = ()=>{
                             <h2 className='text-center'>{item.release_date.slice(0,4)}</h2>
                             <p className='   max-[430px]:h-2/5 mb-8 overflow-hidden h-1/5 mt-2 rounded-md font-light text-sm text-start border-2 border-emerald-600 p-2'>{item.overview}</p>
                             <a className='absolute hover:bg-red-500  border-none  p-2  rounded-xl left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-blue-600 max-[430px]:pr-4 max-[430px]:pl-4 pl-6 pr-6'  href={`/player/${item.id}`}>Watch</a>
-                          {engPlayer?  <a className='absolute hover:bg-red-500  border-none  p-2  rounded-xl left-1/2 top-[95%] transform -translate-x-1/2 -translate-y-1/2 bg-blue-600 max-[430px]:pr-4 max-[430px]:pl-4 pl-6 pr-6'  href={`/EngPlayerPage/${item.id}`}>Watch English</a>:null}
+                          {engPlayer?  <a className='absolute hover:bg-red-500  border-none  font-extralight  text-[15px] w-4/6 p-2  rounded-xl left-1/2 top-[95%] transform -translate-x-1/2 -translate-y-1/2 bg-blue-600 max-[430px]:pr-2 max-[430px]:pl-2 max-[430px]:text-[10px] max-[430px]:w-5/6 pl-4 pr-4'  href={`/EngPlayerPage/${item.id}`}>Watch English</a>:null}
                       </div>
                   )
               })}
